@@ -7,7 +7,7 @@ install_commands() {
 
   sudo -E apt-key adv --keyserver keyserver.ubuntu.com --recv-keys CC86BB64
   sudo -E add-apt-repository -y ppa:rmescandon/yq
-  sudo -E apt-get -qq update && sudo -E apt-get -qq install jq yq tree
+  sudo -E apt-get -qq update && sudo apt-get upgrade && sudo -E apt-get -qq install jq yq tree
 }
 
 setup_envs() {
