@@ -85,7 +85,7 @@ By storing cache in docker images, BuildWrt significantly decreases compiling du
 
 <!-- # TODO solve references -->
 
-#### Secrets page
+#### 4Secrets page
 
 ![Secrets page](docs/imgs/secrets.png)
 
